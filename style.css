@@ -211,10 +211,11 @@ a:link,a:hover,a:active,a:visited{
     /*For Mobile */
     .container{
         width: auto;
-        padding-left: 10px;
+        padding-left: 0px;
         border: 1px solid white;
-        width: 300px;
-        padding-left: 10px;
+        min-width: 320px;
+        max-width: 480px;
+        padding-left: 0px;
         padding-top: 10px;
     }
     a:link,a:hover,a:active,a:visited{
@@ -252,14 +253,15 @@ a:link,a:hover,a:active,a:visited{
         text-align: center;
         border: 1px solid rgb(139, 211, 240);
         background-color: rgb(255, 217, 224);
-        box-sizing: content-box;
+        box-sizing: border-box;
+        min-width: 80%;
+        flex-wrap: wrap;
         width: 140px;
-        height: 30px;  
+        height: 60px;  
         padding: 20px;
         border-radius: 10px;
         font-size: large;
         display: inline-block;
-        margin: 10px;
         box-shadow: 5px 10px rgb(139, 211, 240);
         text-decoration: none;
     }
@@ -281,14 +283,15 @@ a:link,a:hover,a:active,a:visited{
         text-align: center;
         border: 1px solid rgb(139, 211, 240);
         background-color: rgb(255, 217, 224);
-        box-sizing: content-box;
+        box-sizing: border-box;
+        min-width: 80%;
+        flex-wrap: wrap;
         width: 140px;
-        height: 30px;  
+        height: 60px;  
         padding: 20px;
         border-radius: 10px;
         font-size: large;
         display: inline-block;
-        margin: 10px;
         box-shadow: 5px 10px rgb(139, 211, 240);
         text-decoration: none;
     }
@@ -309,14 +312,15 @@ a:link,a:hover,a:active,a:visited{
         text-align: center;
         border: 1px solid rgb(139, 211, 240);
         background-color: rgb(255, 217, 224);
-        box-sizing: content-box;
+        box-sizing: border-box;
+        min-width: 80%;
+        flex-wrap: wrap;
         width: 140px;
-        height: 30px;  
+        height: 60px;  
         padding: 20px;
         border-radius: 10px;
         font-size: large;
         display: inline-block;
-        margin: 10px;
         box-shadow: 5px 10px rgb(139, 211, 240);
         text-decoration: none;
     }
@@ -336,14 +340,15 @@ a:link,a:hover,a:active,a:visited{
         text-align: center;
         border: 1px solid rgb(139, 211, 240);
         background-color: rgb(255, 217, 224);
-        box-sizing: content-box;
+        box-sizing: border-box;
+        min-width: 80%;
+        flex-wrap: wrap;
         width: 140px;
-        height: 30px;  
+        height: 60px;  
         padding: 20px;
         border-radius: 10px;
         font-size: large;
         display: inline-block;
-        margin: 10px;
         box-shadow: 5px 10px rgb(139, 211, 240);
         text-decoration: none;
     }
